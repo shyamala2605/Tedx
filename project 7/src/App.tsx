@@ -269,55 +269,56 @@ function App() {
             Core Team
           </h2>
           
-          <div className="max-w-6xl mx-auto">
+       <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  VS
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Vivaan Shodhan</h3>
-                <p className="text-gray-600 text-sm text-center">Sponsorship and Financing</p>
+              <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/VS.jpeg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
+              </div>
+
+              <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/JA.jpeg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
+              </div>
+              <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/NS.jpeg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
               </div>
               
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  JA
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Jeetmanyu Agarwal</h3>
-                <p className="text-gray-600 text-sm text-center">Speaker Curation and Logistics</p>
+               <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/DP.jpeg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
               </div>
               
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  NS
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Nishka Shah</h3>
-                <p className="text-gray-600 text-sm text-center">Marketing and Design</p>
+               <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/RP.jpeg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
               </div>
               
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  DP
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Diya Patel</h3>
-                <p className="text-gray-600 text-sm text-center">Sponsorship and Financing</p>
+               <div className="bg-white rounded-xl border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl overflow-hidden">
+                <img
+                  src="/images/VN.jpg"
+                  alt="Vivaan Shodhan"
+                  className="w-full h-96 object-cover"
+                />
               </div>
               
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  RP
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Ritisha Parikh</h3>
-                <p className="text-gray-600 text-sm text-center">Speaker Curation and Logistics</p>
-              </div>
               
-              <div className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-300 transition-all duration-300 hover:transform hover:scale-105 shadow-lg hover:shadow-xl">
-                <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-                  VN
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-red-600 text-center">Virika Nanda</h3>
-                <p className="text-gray-600 text-sm text-center">Marketing and Design</p>
-              </div>
             </div>
           </div>
         </div>
