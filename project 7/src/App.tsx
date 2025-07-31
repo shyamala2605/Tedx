@@ -61,13 +61,14 @@ function App() {
     }
   ];
 
-  const sponsors = [
+const sponsors = [
     { name: "KK Jewels", logo: "KK", description: "Premium jewelry and luxury accessories" },
+    { name: "Capital 8", logo: "C8", description: "Investment and financial services" },
+    { name: "Savvy Group", logo: "SG", description: "Real estate development and construction" },
     { name: "Double Tree by Hilton", logo: "DT", description: "World-class hospitality and accommodation" },
     { name: "Sharma Hyundai", logo: "SH", description: "Leading automotive dealership and services" },
     { name: "Swelore Engineering Pvt Ltd", logo: "SE", description: "Innovative engineering solutions and technology" },
-    { name: "Capital 8", logo: "C8", description: "Investment and financial services" },
-    { name: "Savvy Group", logo: "SG", description: "Real estate development and construction" }
+    
   ];
 
   return (
